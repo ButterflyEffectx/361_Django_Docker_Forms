@@ -28,13 +28,29 @@ firstproject/
 ├── Dockerfile              # Docker configuration
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
+```
+Clone This Project
+```bash
 git clone https://github.com/ButterflyEffectx/361_Django_Docker_Forms.git
+```
+Next step cd to your repo
+```bash
 cd 361_Django_Docker_Forms
-
+```
+build your image from dockerfile
+```bash
 docker build -t your-docker-username/django-app .
-
+```
+Follow this step to test the project 👇🏻
+```bash
 docker run -p 8000:8000 your-docker-username/django-app
-
+```
+```bash
 http://localhost:8000/userRegistration/
+```
 
+## Last step
+# Push ypur image to Docker hub
+```bash
+docker push your-docker-username/django-app .
+```
