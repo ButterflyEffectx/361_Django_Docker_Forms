@@ -49,8 +49,8 @@ docker run -p 8000:8000 your-docker-username/django-app
 http://localhost:8000/userRegistration/
 ```
 
-## Last step
-# Push ypur image to Docker hub
+# Last step
+## Push your image to Docker hub
 ```bash
 docker push your-docker-username/django-app .
 ```
