@@ -38,14 +38,3 @@ docker run -p 8000:8000 your-docker-username/django-app
 
 http://localhost:8000/userRegistration/
 
-
-
-### Key Points:
-1. **Update repository URLs**: Replace `your-docker-username` with your actual Docker username
-2. **Docker commands**: The instructions are clear on how to build, run, and troubleshoot the Docker container.
-3. **Future Enhancements**: This section outlines potential improvements, giving the project room to grow.
-4. **Contributing**: Encourages open-source contribution.
-
-
-
-
