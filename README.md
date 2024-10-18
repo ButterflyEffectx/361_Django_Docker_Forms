@@ -52,5 +52,5 @@ http://localhost:8000/userRegistration/
 # Last step
 ## Push your image to Docker hub
 ```bash
-docker push your-docker-username/django-app .
+docker push your-docker-username/django-app:latest
 ```
